@@ -1,0 +1,1 @@
+ros2 service call /datum robot_localization/srv/SetDatum '{geo_pose: {position: {latitude: 33.83, longitude: -84.42, altitude: 254.99568}, orientation: {x: 0.0, y: 0.0, z: 0.0, w: 1.0}}}'

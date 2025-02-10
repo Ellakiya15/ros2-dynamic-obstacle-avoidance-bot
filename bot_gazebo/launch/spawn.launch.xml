@@ -1,0 +1,6 @@
+<?xml version='1.0'?>
+<launch>
+    <include file="$(find-pkg-share bot_description)/launch/bot_visualize.launch.py"/>
+    <!-- Read robot_description an spawn in gazebo running sim -->
+    <include file="$(find-pkg-share bot_gazebo)/launch/gazebo_x.launch.py"/>
+</launch>

@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<launch>
+    <!--Launch the obstacle world-->
+    <include file="$(find-pkg-share bot_gazebo)/launch/obstacle_world.launch.py"/>
+    <!-- Publish URDF file in robot_description topic -->
+    <include file="$(find-pkg-share bot_gazebo)/launch/rover_visualize.launch.py"/>
+    <!-- Read robot_description an spawn in gazebo running sim -->
+    <include file="$(find-pkg-share bot_gazebo)/launch/spawn_description.launch.py"/>
+</launch>
