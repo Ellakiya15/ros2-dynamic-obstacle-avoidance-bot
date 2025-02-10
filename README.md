@@ -72,3 +72,5 @@ Enter new goal (x, y, yaw):  3.0 -2.5 1.0
 [WARN] [navigation_node]: Goal failed!
 Enter new goal (x, y, yaw):  
 ```
+## Expected Output
+![Simulation Preview](bot_description/meshes/simulation.gif)
