@@ -13,7 +13,7 @@ This project implements a **custom robot** that performs **autonomous navigation
 ## Installation & Setup
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your_username/Dynamic-obstacle-avoidance-bot.git
+git clone https://github.com/Ellakiya15/ros2-dynamic-obstacle-avoidance-bot.git
 cd Dynamic-obstacle-avoidance-bot
 ```
 
